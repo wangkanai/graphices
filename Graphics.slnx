@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/.solutions/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Build.targets" />
+    <File Path="Directory.Packages.props" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/tests/">
+	<Project Path="tests/Unit/Wangkanai.Graphics.UnitTests.csproj"/>
+	<Project Path="tests/Platform/Wangkanai.Graphics.TestPlatform.csproj"/>
+  </Folder>
+<Project Path="src/Wangkanai.Graphics.csproj" />
+<Project Path="Rasters/src/Root/Wangkanai.Graphics.Rasters.csproj" />
+<Project Path="Vectors/src/Root/Wangkanai.Graphics.Vectors.csproj" />
+
+</Solution>
